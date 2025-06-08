@@ -1,0 +1,42 @@
+body {
+  background-color: aquamarine;
+}
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  grid-row: inherit;
+}
+.card {
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.pic {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 850;
+  font-size: xx-large;
+  margin: 5px;
+}
+.occ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: darkblue;
+}
