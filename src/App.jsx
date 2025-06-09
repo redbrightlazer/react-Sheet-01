@@ -1,9 +1,10 @@
 import CommentList from "./Components/Comments/commentList.jsx";
-
+import Input from "./Components/Comments/CommentInput.jsx";
 function App() {
   return (
     <>
       <h1>Welcome to the comment Store</h1>
+      <Input />
       <CommentList
         comments={[
           {
