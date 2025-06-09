@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.comment-text {
+  width: 400px;
+  background-color: rgb(
+    208,
+    208,
+    208
+  ); /* padding at the top and bottombut border on the sides*/
+  border-left: 30px solid rgb(208, 208, 208);
+  border-right: 30px solid rgb(208, 208, 208);
+  padding: 17px 0 17px 0;
+  border-radius: 7px;
+  font-size: large;
+  color: #000;
+  letter-spacing: 0px; /* make it less spaced out */
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.comment-text:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1); /* make it pop out when you hover */
+  scale: 1.01;
+  cursor: pointer;
+}
+.comment-author {
+  font-weight: bolder;
+  color: rgb(193, 0, 0);
+  font-size: 1.5em;
+  display: inline;
+}
+.comment-date {
+  font-weight: 350;
+  color: rgb(82, 82, 82);
+
+  display: inline;
+  padding-left: 25px;
+}
+.comment {
+  margin-bottom: 65px;
+}
+.triangle {
+  width: 0;
+  margin-bottom: -30px;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid rgb(208, 208, 208); /* color of the triangle */
+  margin-left: 25px;
+  rotate: 34deg;
+}

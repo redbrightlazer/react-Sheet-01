@@ -1,9 +1,25 @@
-import CardL from "./Components/Cards/CardList.jsx";
+import CommentList from "./Components/Comments/commentList.jsx";
 
 function App() {
   return (
     <>
-      <CardL />
+      <h1>Welcome to the comment Store</h1>
+      <CommentList
+        comments={[
+          {
+            comment:
+              "The user interface is intuitive and easy to navigate. I was able to find all the features I needed without any confusion. Great job on the design and overall user experience!",
+            author: "Charlie",
+            date: "2023-10-03",
+          },
+          {
+            comment:
+              "Customer support was responsive and helpful when I had an issue with my order. They resolved my problem quickly and professionally. I would definitely recommend this to my friends.",
+            author: "Dana",
+            date: "2023-10-04",
+          },
+        ]}
+      />
     </>
   );
 }

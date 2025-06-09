@@ -1,0 +1,22 @@
+body {
+  background-color: #ffc99a;
+}
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.product {
+  background-color: white;
+  position: relative;
+  border: 5px solid;
+  border-image: linear-gradient(to right, #88ff00, #0a3400);
+  border-image-slice: 1;
+}
+
+.name {
+  color: #000000;
+  font-size: xx-large;
+  padding: 0px 4px;
+  margin: 10px;
+}
