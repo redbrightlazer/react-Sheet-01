@@ -16,13 +16,14 @@ body {
   font-size: large;
   color: #000;
   letter-spacing: 0px; /* make it less spaced out */
-  transition: all 0.3s ease-in-out;
+  transition: all 5s ease;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 .comment-text:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 1); /* make it pop out when you hover */
   scale: 1.01;
   cursor: pointer;
+  transform: rotateX(1800deg) rotateY(1800deg) rotateZ(1800deg);
 }
 .comment-author {
   font-weight: bolder;
@@ -38,7 +39,7 @@ body {
   padding-left: 25px;
 }
 .comment {
-  margin-bottom: 65px;
+  margin: 45px 15px;
 }
 .triangle {
   width: 0;
