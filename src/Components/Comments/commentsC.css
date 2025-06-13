@@ -4,23 +4,19 @@ body {
 }
 .comment-text {
   width: 400px;
-  background-color: rgb(
-    208,
-    208,
-    208
-  ); /* padding at the top and bottombut border on the sides*/
+  background-color: rgb(208, 208, 208);
   border-left: 30px solid rgb(208, 208, 208);
   border-right: 30px solid rgb(208, 208, 208);
   padding: 17px 0 17px 0;
   border-radius: 7px;
   font-size: large;
   color: #000;
-  letter-spacing: 0px; /* make it less spaced out */
+  letter-spacing: 0px;
   transition: all 5s ease;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 .comment-text:hover {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1); /* make it pop out when you hover */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
   scale: 1.01;
   cursor: pointer;
   transform: rotateX(1800deg) rotateY(1800deg) rotateZ(1800deg);
@@ -47,7 +43,7 @@ body {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid rgb(208, 208, 208); /* color of the triangle */
+  border-left: 15px solid rgb(208, 208, 208);
   margin-left: 25px;
   rotate: 34deg;
 }
