@@ -15,7 +15,7 @@ function Practice() {
       {poke.map((pokemon, index) => (
         <div key={index}>
           <p>{pokemon.name}</p>
-          <p>{pokemon.id}</p>
+          <p>{pokemon.url}</p>
           <img
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${
               index + 1
